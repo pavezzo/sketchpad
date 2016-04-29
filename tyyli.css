@@ -11,7 +11,7 @@ body {
     border: 5px solid black;
     position: absolute;
     display: inline-block;
-    margin: 25% auto;
+    margin: auto;
 }
 
 .block {
@@ -23,7 +23,7 @@ body {
     float: left;
 }
 
-button {
+#clear {
     position: absolute;
     margin: auto;
     width: 170px;
@@ -39,9 +39,8 @@ button {
     border-radius: 8px;
     display: block;
     float: none;
-    margin-top: 10px;
 }
 
-button:focus {
+#clear:focus {
     outline: none;
 }
