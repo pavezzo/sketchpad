@@ -24,7 +24,7 @@ body {
 }
 
 #clear {
-    position: absolute;
+    position: relative;
     margin: auto;
     width: 170px;
     height: 70px;
@@ -37,10 +37,45 @@ body {
     border: 5px solid black;
     font-family: Sans-serif;
     border-radius: 8px;
-    display: block;
-    float: none;
+    display: inline-block;
 }
 
 #clear:focus {
+    outline: none;
+}
+
+#new {
+    position: relative;
+    width: 170px;
+    height: 70px;
+    font-size: 25px;
+    display: inline-block;
+    background-color: white;
+    box-shadow: none;
+    text-shadow: none;
+    border: 5px solid black;
+    font-family: Sans-serif;
+    border-radius: 8px;
+}
+
+#new:focus {
+    outline: none;
+}
+
+#wildBrush {
+    position: relative;
+    width: 170px;
+    height: 70px;
+    font-size: 25px;
+    display: inline-block;
+    background-color: white;
+    box-shadow: none;
+    text-shadow: none;
+    border: 5px solid black;
+    font-family: Sans-serif;
+    border-radius: 8px;
+}
+
+#wildBrush:focus {
     outline: none;
 }
